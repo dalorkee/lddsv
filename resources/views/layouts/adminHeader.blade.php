@@ -16,7 +16,7 @@
 			<ul class="nav navbar-nav">
 				<li class="dropdown messages-menu">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<i class="fa fa-envelope-o"></i>
+						<i class="far fa-envelope"></i>
 						<span class="label label-success">4</span>
 					</a>
 					<ul class="dropdown-menu">
@@ -93,7 +93,7 @@
 				<!-- Notifications: style can be found in dropdown.less -->
 				<li class="dropdown notifications-menu">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<i class="fa fa-bell-o"></i>
+						<i class="far fa-bell"></i>
 						<span class="label label-warning">10</span>
 					</a>
 					<ul class="dropdown-menu">
@@ -134,7 +134,7 @@
 				<!-- Tasks: style can be found in dropdown.less -->
 				<li class="dropdown tasks-menu">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<i class="fa fa-flag-o"></i>
+						<i class="far fa-flag"></i>
 						<span class="label label-danger">9</span>
 					</a>
 					<ul class="dropdown-menu">
@@ -209,7 +209,7 @@
 				<li class="dropdown user user-menu">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 						<img src="{{ asset('AdminLTE-2.4.3/dist/img/user2-160x160.jpg') }}" class="user-image" alt="User Image">
-						<span class="hidden-xs">Alexander Pierce</span>
+						<span class="hidden-xs">Prajak Sopha</span>
 					</a>
 					<ul class="dropdown-menu">
 						<!-- User image -->

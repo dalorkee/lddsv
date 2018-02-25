@@ -18,6 +18,9 @@ Route::get('/', 'HomeController@index')->name('home');
 	return view('front.index');
 });
 */
+Route::get('/add', function() {
+		return view('backend.frmAddData');
+});
 Route::get('/backend', function() {
 	return view('backend.dashboard');
 });

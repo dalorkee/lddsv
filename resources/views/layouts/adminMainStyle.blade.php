@@ -1,6 +1,7 @@
 <!-- core CSS -->
 {{ Html::style(('AdminLTE-2.4.3/bower_components/bootstrap/dist/css/bootstrap.min.css')) }}
-{{ Html::style(('AdminLTE-2.4.3/bower_components/font-awesome/css/font-awesome.min.css')) }}
+{{ Html::style(('fonts/font-awesome-4.7.0/css/font-awesome.min.css')) }}
+{{ Html::style(('fonts/fontawesome-5.0.6/css/fontawesome-all.min.css')) }}
 {{ Html::style(('AdminLTE-2.4.3/bower_components/Ionicons/css/ionicons.min.css')) }}
 {{ Html::style(('AdminLTE-2.4.3/bower_components/jvectormap/jquery-jvectormap.css')) }}
 {{ Html::style(('AdminLTE-2.4.3/dist/css/AdminLTE.min.css')) }}
@@ -11,4 +12,5 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
-{{ Html::style(('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic')) }}
+{{ Html::style(('https://fonts.googleapis.com/css?family=Prompt')) }}
+{{ Html::style(('css/admin-main.css')) }}
