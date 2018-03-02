@@ -7,11 +7,13 @@
 	<meta name="author" content="Land development department">
 	<title>LDD Services :: Admin</title>
 	@include('layouts.adminMainStyle')
+	@yield('style')
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 	<div class="wrapper">
 		@yield('content')
 		@include('layouts.adminMainScript')
 	</div>
+	@yield('script')
 </body>
 </html>

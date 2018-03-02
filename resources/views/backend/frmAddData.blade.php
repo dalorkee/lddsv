@@ -1,4 +1,8 @@
 @extends('layouts.adminTemplate')
+@section('style')
+<!-- bootstrap datepicker -->
+{{ Html::style(('AdminLTE-2.4.3/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css')) }}
+@stop
 @section('content')
 	@include('layouts.adminHeader')
 	@include('layouts.adminLeftSidebar')
@@ -48,10 +52,17 @@
 										</div>
 									</div>
 								</div>
+								<!-- Date -->
 								<div class="form-group">
-									<label for="exampleInputPassword1">Password</label>
-									<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-								</div>
+									<label>Date:</label>
+				                  <div class="input-group date">
+				                    <div class="input-group-addon">
+				                      <i class="fa fa-calendar"></i>
+				                    </div>
+				                    <input type="text" class="form-control pull-right" id="datepicker">
+				                  </div>
+				                  <!-- /.input group -->
+				                </div>
 							</div>
 							<div class="box-footer">
 								<button type="submit" class="btn btn-primary">Submit</button>
