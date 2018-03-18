@@ -8,3 +8,10 @@ body {
 	font-weight: normal;
 	font-style: normal;
 }
+
+/* tonn */
+.main-form label {
+	font-weight: normal !important;
+	line-height: 1.20em;
+	color: #111111;
+}

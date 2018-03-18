@@ -2,19 +2,22 @@
 {{ Html::script(('AdminLTE-2.4.3/bower_components/jquery/dist/jquery.min.js')) }}
 <!-- Bootstrap 3.3.7 -->
 {{ Html::script(('AdminLTE-2.4.3/bower_components/bootstrap/dist/js/bootstrap.min.js')) }}
+<!-- Select2 -->
+{{ Html::script(('AdminLTE-2.4.3/bower_components/select2/dist/js/select2.full.min.js')) }}
+<!-- date-range-picker -->
+{{ Html::script(('AdminLTE-2.4.3//bower_components/moment/min/moment.min.js')) }}
+{{ Html::script(('AdminLTE-2.4.3//bower_components/bootstrap-daterangepicker/daterangepicker.js')) }}
+<!-- bootstrap datepicker -->
+{{ Html::script(('AdminLTE-2.4.3/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js')) }}
+{{ Html::script(('AdminLTE-2.4.3/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.th.min.js')) }}
 <!-- FastClick -->
 {{ Html::script(('AdminLTE-2.4.3/bower_components/fastclick/lib/fastclick.js')) }}
 <!-- AdminLTE App -->
 {{ Html::script(('AdminLTE-2.4.3/dist/js/adminlte.min.js')) }}
-<!-- Sparkline -->
-<!-- {{ Html::script(('AdminLTE-2.4.3/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js')) }} -->
-<!-- jvectormap  -->
-<!-- {{ Html::script(('AdminLTE-2.4.3/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js')) }} -->
-<!-- {{ Html::script(('AdminLTE-2.4.3/plugins/jvectormap/jquery-jvectormap-world-mill-en.js')) }} -->
+
+{{ Html::script(('AdminLTE-2.4.3/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js')) }}
 <!-- SlimScroll -->
 {{ Html::script(('AdminLTE-2.4.3/bower_components/jquery-slimscroll/jquery.slimscroll.min.js')) }}
-<!-- ChartJS -->
-<!-- {{ Html::script(('AdminLTE-2.4.3/bower_components/chart.js/Chart.js')) }} -->
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 {{ Html::script(('AdminLTE-2.4.3/dist/js/pages/dashboard2.js')) }}
 <!-- AdminLTE for demo purposes -->

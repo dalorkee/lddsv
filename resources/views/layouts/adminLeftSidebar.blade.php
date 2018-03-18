@@ -27,9 +27,9 @@
 		<!-- sidebar menu: : style can be found in sidebar.less -->
 		<ul class="sidebar-menu" data-widget="tree">
 			<li class="header">การบริการข้อมูล</li>
-			<li class="active"><a href="#"> Dashboard</a></li>
+			<li class="active"><a href="#"><i class="far fa-circle"></i> <span>Dashboard</span></a></li>
 			<li><a href="{{ url('/add') }}"> <span>บันทึกข้อมูลใหม่</span></a></li>
-			<li><a href="#"> <span></span>สถานะการบริการ</a></span></li>
+			<li><a href="#"> <span>สถานะการบริการ</span></a></li>
 			<li class="header">บริหารจัดการเว็บไซต์</li>
 			<li class="treeview">
 				<a href="#">
@@ -57,7 +57,7 @@
 					<li><a href="#"><i class="far fa-circle"></i> แบบฟอร์ม</a></li>
 				</ul>
 			</li>
-			<li><a href="#"><i></i> <span></span>จัดการผู้ใช้</a></span></li>
+			<li><a href="#"><i class="fas fa-users"></i> <span>จัดการผู้ใช้</span></a></li>
 		</ul>
 
 	</section>

@@ -1,7 +1,5 @@
 @extends('layouts.adminTemplate')
 @section('content')
-	@include('layouts.adminHeader')
-	@include('layouts.adminLeftSidebar')
  	<!-- Content Wrapper. Contains page content -->
 	<div class="content-wrapper">
 		<!-- Content Header (Page header) -->
@@ -58,6 +56,4 @@
 		<!-- /.content -->
 	</div>
 	<!-- /.content-wrapper -->
-	@include('layouts.adminFooter')
-	@include('layouts.adminControlSidebar')
 @stop
